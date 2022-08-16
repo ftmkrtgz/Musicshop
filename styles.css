@@ -1,0 +1,51 @@
+main,
+h1,
+h2,
+ol {
+    text-align: center
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+h4 {
+    color: darkgoldenrod;
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav>ul>li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+li {
+    list-style-position: inside
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
